@@ -1,0 +1,24 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-size: 62.5%;
+
+  --bg-color: #f0f0f0;
+  --invalid-color: #8e1717;
+  --text-color: #333333;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* Nav Section */
+/* Heading Logo Section */
+/* Form Section */
+
+input{
+  font-family: inherit;
+  font-size: inherit;
+}
