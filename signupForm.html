@@ -18,26 +18,62 @@
     </ul>
   </nav>
 
-  <main>
-    <div class="logo-section">
 
+  <div class="logo-section">
+    <div class="logo-img">
+      <img src="./assets/odin-lined.png" alt="The Odin Project Logo">
+      <p>Odin</p>
+    </div>
+    <div class="image-credit">
+      <p>Photo by <a href="https://unsplash.com/photos/forest-during-daytime-wQImoykAwGs"
+          alt="Dark Forest photo by Deglex Ganzorig" target="_blank" rel="noreferrer noopener">Deglex Ganzorig</a> on
+        <a href="https://unsplash.com/" alt="link to Unsplash" target="_blank" rel="noreferrer noopener">Unsplash</a>
+      </p>
+    </div>
+  </div>
+
+  <main>
+    <div class="head-line">
+      <p>
+        Ultimately, You should try buildin this on your own, because you see... <br>
+        It really was very meaningful experience for me. <br>
+        I hope you find your endeavour successful.
+      </p>
     </div>
     <div class="form-section">
       <form action="" method="post">
-        <p>
-          <label for="user-name">Your Username: </label>
-          <input type="text" name="userName" id="user-name">
-        </p>
-        <p>
-          <label for="password">Your Password: </label>
-          <input type="password" name="userPassword" id="password">
-        </p>
-        <p>
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" name="confPassword" id="confirm-password">
-        </p>
+        <fieldset>
+          <legend>Let's gooo!</legend>
+          <p>
+            <label for="first-name">First Name </label>
+            <input type="text" name="userFirstName" id="first-name">
+          </p>
+          <p>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="userLastName" id="last-name">
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="userEmail" id="email">
+          </p>
+          <p>
+            <label for="tel-number">Telephone</label>
+            <input type="tel" name="userTel" id="tel-number">
+          </p>
+          <p>
+            <label for="password">Your Password: </label>
+            <input type="password" name="userPassword" id="password">
+          </p>
+          <p>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confPassword" id="confirm-password">
+          </p>
+        </fieldset>
         <button type="submit">Sign me up!</button>
       </form>
+      <div class="login-link">
+        <p>Already joined us? <a href="" alt="Login page" rel="noreferrer noopener">Log In</a> here</p>
+      </div>
     </div>
   </main>
 </body>

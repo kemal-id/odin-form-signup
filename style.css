@@ -10,13 +10,76 @@
   --text-color: #333333;
 }
 
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./font/SourceSansPro-Bold.woff2') format('woff2'),
+        url('./font/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./font/SourceSansPro-Regular.woff2') format('woff2'),
+        url('./font/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('./font/Norse-Bold.woff2') format('woff2'),
+        url('./font/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body {
   font-size: 1.6rem;
+  margin: 0;
+
+  display: flex;
+  min-height: 100vh;
+  /* width: 100%; */
 }
 
 /* Nav Section */
+nav {
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(148, 172, 156, 0.241);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+
+  font-family:'Source Sans Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-left: 1.5em;
+
+  color: var(--text-color)
+}
+
 /* Heading Logo Section */
-/* Form Section */
+.logo-section {
+  background: no-repeat url("./assets/degleex-ganzorig-wQImoykAwGs-unsplash.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+
+/* Main Form Section */
 
 input{
   font-family: inherit;
