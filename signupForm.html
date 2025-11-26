@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <nav>
+  <!-- <nav>
     <ul>
       <li>Home</li>
       <li>Sign in</li>
       <li>Contact us</li>
     </ul>
-  </nav>
+  </nav> -->
 
 
   <div class="logo-section">
@@ -37,7 +37,7 @@
   <main>
     <div class="head-line">
       <p>
-        Ultimately, You should try buildin this on your own, because you see... <br>
+        Ultimately, You should try building this on your own, because you see... <br>
         It really was very meaningful experience for me. <br>
         I hope you find your endeavour successful.
       </p>
@@ -45,30 +45,36 @@
     <div class="form-section">
       <form action="" method="post">
         <fieldset>
-          <legend>Let's gooo!</legend>
+          <legend>Let's Gooo!</legend>
           <p>
-            <label for="first-name">First Name </label>
-            <input type="text" name="userFirstName" id="first-name">
-          </p>
-          <p>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="userLastName" id="last-name">
+            <label for="first-name">First Name* </label>
+            <input type="text" name="userFirstName" id="first-name" required>
+            <span class="name-input"></span>
           </p>
           <p>
             <label for="email">Email</label>
             <input type="email" name="userEmail" id="email">
+            <span class="email-input"></span>
+          </p>
+          <p>
+            <label for="last-name">Last Name*</label>
+            <input type="text" name="userLastName" id="last-name" required>
+            <span class="name-input"></span>
           </p>
           <p>
             <label for="tel-number">Telephone</label>
             <input type="tel" name="userTel" id="tel-number">
+            <span class="tel-input"></span>
           </p>
           <p>
-            <label for="password">Your Password: </label>
-            <input type="password" name="userPassword" id="password">
+            <label for="password">Your Password* </label>
+            <input type="password" name="userPassword" id="password" required>
+            <span class="pass-input"></span>
           </p>
           <p>
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" name="confPassword" id="confirm-password">
+            <label for="confirm-password">Confirm Password*</label>
+            <input type="password" name="confPassword" id="confirm-password" required>
+            <span class="pass-input"></span>
           </p>
         </fieldset>
         <button type="submit">Sign me up!</button>
