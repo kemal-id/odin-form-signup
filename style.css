@@ -293,7 +293,6 @@ input:user-invalid ~ span::after {
   padding: 0 1ch;
   color: var(--invalid-color);
   font-size: 80%;
-  /* background-color: var(--invalid-color); */
   border-radius: 2px;
 }
 
@@ -316,4 +315,58 @@ input:user-invalid:not(:focus) {
 
 label:has(~input:user-invalid:not(:focus)) {
   opacity: 0.5;
+}
+
+button {
+  margin-top: 1.5em;
+  margin-left: 4em;
+  padding: 0.5em 4em;
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+  background-color: rgba(4, 63, 13, 0.805);
+  border: 1px solid rgba(0, 238, 0, 0.664);
+  border-radius: 5px;
+  color: var(--logo-text-color);
+  box-shadow: 2px 3px 10px 3px rgba(4, 63, 13, 0.1);
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(4, 63, 13, 0.05);
+  color: var(--text-color);
+  border-color: rgb(0, 238, 0);
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+  left: 1px;
+  box-shadow: 1px 2px 8px 1px rgba(4, 63, 13, 0.1);
+  background-color: rgba(4, 63, 13, 0.08);
+
+}
+
+
+
+.login-link {
+  margin-top: 1em;
+  padding-left: 4.2em;
+}
+
+.login-link a{
+  color:rgba(4, 63, 13, 0.597);
+}
+
+.login-link a:hover,
+.login-link a:focus {
+  text-decoration: none;
+}
+
+.login-link a:active{
+  color:rgba(4, 63, 13);
+}
+
+.login-link a:visited{
+  text-decoration: none;
 }
